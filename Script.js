@@ -1,4 +1,4 @@
-// "use strict";   сучасний режим(строгий)
+// "use strict";   
 // let number = 5;
 // var name('Ivan');   
 // console.log(name);
@@ -29,15 +29,35 @@
 
 
    
-alert('halo');
-const result =confirm("Here?");
-console.log(result);
-const answer = prompt("Do you want to play?","Yes");
-console.log(answer);
+// alert('halo');
+// const result =confirm("Here?");
+// console.log(result);
+// const answer = prompt("Do you want to play?","Yes");
+// console.log(answer);
 
-const answers =[];
-answers[0] = prompt('Як ваше імя?','');
-answers[1] = prompt('Яка ваша фамілія','');
-answers[2] = prompt('Яке ваше хоббі','');
-console.log(answers);
+// const answers =[];
+// answers[0] = prompt('Як ваше імя?','');
+// answers[1] = prompt('Яка ваша фамілія','');
+// answers[2] = prompt('Яке ваше хоббі','');
+// console.log(answers);
   
+
+
+
+
+
+
+const category = 'toys';
+console.log('https://someurl.com/ + categore' + '4');
+2)спосіб
+console.log(`https://someurl.com/${category}/5`);
+
+
+one more Ex.
+const user = 'Ivan';
+alert(`Hi,${user}`);			
+
+Ex.
+
+console.log('arr' + "- object");
+console.log(4 + +"5");
